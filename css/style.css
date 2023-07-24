@@ -11,6 +11,9 @@
   max-width: 186px;
   width: 100%;
 }
+.logo:hover {
+  transform: scale(0.9, 0.8);
+}
 .navigation {
   width: 464px;
 }
@@ -24,6 +27,9 @@
   font-size: 20px;
   font-family: "Poppins";
   font-weight: bold;
+}
+.li-items:hover {
+  color: #f8d7a4;
 }
 .top-section {
   width: 1194px;
@@ -55,6 +61,24 @@
 .car {
   position: absolute;
   z-index: 1;
+  -webkit-animation: move 5s alternate 1 0.2s;
+          animation: move 5s alternate 1 0.2s;
+}
+@-webkit-keyframes move {
+  from {
+    right: 0px;
+  }
+  to {
+    right: 150px;
+  }
+}
+@keyframes move {
+  from {
+    right: 0px;
+  }
+  to {
+    right: 150px;
+  }
 }
 .img-background-vector {
   position: relative;
@@ -165,19 +189,23 @@
   font-weight: bold;
   font-family: "Poppins";
 }
-
+/* footer */
 .footer-wrapper {
   background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .footer-titles {
   width: 700px;
   margin-left: 126px;
-  display: flex;
-  flex-direction: column;
 }
 .logo-f {
   width: 186px;
   margin-top: 50px;
+}
+.logo-f:hover {
+  transform: scale(0.9, 0.8);
 }
 .footer-h4 {
   width: 263px;
@@ -192,10 +220,16 @@
   display: flex;
   justify-content: left;
   margin-left: 126px;
+  margin-bottom: 50px;
   align-items: center;
 }
 .social-items {
+  color: white;
   margin-right: 45px;
+  font-size: 35px;
+}
+.social-items:hover {
+  transform: scale(0.9, 0.8);
 }
 .footer-bottom {
   display: flex;
@@ -212,7 +246,7 @@
   font-family: "Inter";
 }
 
-/* about */
+/* history */
 .history-s {
   background-color: #000;
   text-align: justify;
@@ -234,6 +268,24 @@
   left: 50px;
   font-family: "Poppins";
   font-weight: bold;
+  -webkit-animation: move-title 1s alternate 1 0.2s;
+          animation: move-title 1s alternate 1 0.2s;
+}
+@-webkit-keyframes move-title {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 50px;
+  }
+}
+@keyframes move-title {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 50px;
+  }
 }
 .history-2 {
   width: 1440px;
@@ -345,7 +397,6 @@
   font-size: 56px;
   text-align: center;
   color: #a55c30;
-  /* margin: 50px 650px; */
   font-family: "Inter";
 }
 .black-back {
