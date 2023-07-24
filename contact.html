@@ -6,6 +6,8 @@
     <title>Project-A</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="icon" href="image/icon-car.png">
   </head>
   <body>
     <header>
@@ -29,7 +31,7 @@
     <main>
       <section>
         <h3 class="Contact-h3">Contact</h3>
-        <form class="form" action="">
+        <form class="form" action="#">
           <div class="action-N">
             <label class="label" for="yname">Your Name</label>
             <input
@@ -51,28 +53,31 @@
             />
           </div>
           <div class="action-N">
-            <label class="label" for="chbrand">Choose a car</label>
+            <label class="label" for="choosecar">Choose a car</label>
             <select class="form-element" name="choosecar" id="choosecar">
-              <option value="Jaguar">Jaguar</option>
-              <option value="Mercedes-Benz" selected>Mercedes-Benz</option>
-              <option value="Porsche">Porsche</option>
-              <option value="Bentley">Bentley</option>
-              <option value="Rolls-Royce">Rolls-Royce</option>
-              <option value="BMW">BMW</option>
-              <option value="Audi">Audi</option>
-              <option value="Range Rover">Range Rover</option>
+              <option class="cars" value="Jaguar">Jaguar</option>
+              <option class="cars" value="Mercedes-Benz" selected>
+                Mercedes-Benz
+              </option>
+              <option class="cars" value="Porsche">Porsche</option>
+              <option class="cars" value="Bentley">Bentley</option>
+              <option class="cars" value="Rolls-Royce">Rolls-Royce</option>
+              <option class="cars" value="BMW">BMW</option>
+              <option class="cars" value="Audi">Audi</option>
+              <option class="cars" value="Range Rover">Range Rover</option>
             </select>
           </div>
-        <div class="action-N">
-          <label class="label" for="your-details">Your Details</label>
-          <textarea class="textarea"
-            id="your-details"
-            name="Your Details"
-            placeholder="Write something.."
-          ></textarea>
-        </div>
-        <button class="send" type="submit">SEND</button>
-      </form>
+          <div class="action-N">
+            <label for="your-details">Your Details</label>
+            <textarea
+              class="textarea"
+              id="your-details"
+              name="Your Details"
+              placeholder="Write something.."
+            ></textarea>
+          </div>
+          <button class="send" type="submit">SEND</button>
+        </form>
       </section>
     </main>
 

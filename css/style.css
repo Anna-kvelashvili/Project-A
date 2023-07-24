@@ -21,7 +21,9 @@
 }
 .li-items {
   color: black;
-  font-size: 16px;
+  font-size: 20px;
+  font-family: "Poppins";
+  font-weight: bold;
 }
 .top-section {
   width: 1194px;
@@ -44,6 +46,7 @@
   width: 457px;
   font-size: 64px;
   color: black;
+  font-family: "Poppins";
 }
 .right {
   width: 832.23px;
@@ -72,10 +75,10 @@
 }
 .m-title {
   font-size: 28px;
-  font-weight: bolder;
   text-align: justify;
   line-height: 1.5;
   color: white;
+  font-family: "Inter";
 }
 .bently {
   background-image: url(../image/Mulliner.jpg);
@@ -92,7 +95,8 @@
   position: absolute;
   top: 100px;
   left: 150px;
-  font-weight: bolder;
+  font-family: "Inter";
+  font-weight: normal;
 }
 .paragraph {
   position: absolute;
@@ -102,6 +106,8 @@
   color: #fff;
   font-size: 35px;
   text-align: left;
+  font-family: "Inter";
+  font-weight: normal;
 }
 .bently-m {
   display: flex;
@@ -109,15 +115,16 @@
 .bently-text {
   display: flex;
   flex-direction: column;
-  justify-content: first baseline;
+  justify-content: center;
   background-color: #f8d7a4;
   border-radius: 50%;
 }
 .MULLINER {
   font-size: 35px;
-  font-weight: bolder;
   text-align: center;
   margin-top: 50px;
+  font-family: "Inter";
+  font-weight: normal;
 }
 .p-mulliner {
   width: 650px;
@@ -128,6 +135,8 @@
   text-align: center;
   padding-top: 28px;
   line-height: 2;
+  font-family: "Inter";
+  font-weight: normal;
 }
 .grey {
   width: 100%;
@@ -153,6 +162,8 @@
 .title-3 {
   font-size: 25px;
   line-height: 2.5;
+  font-weight: bold;
+  font-family: "Poppins";
 }
 
 .footer-wrapper {
@@ -174,6 +185,8 @@
   font-size: 16px;
   color: #f8d7a4;
   margin-top: 20px;
+  font-family: "Inter";
+  font-weight: normal;
 }
 .social {
   display: flex;
@@ -196,10 +209,14 @@
   margin: 0 auto;
   margin-top: 24px;
   margin-bottom: 33px;
+  font-family: "Inter";
 }
 
 /* about */
-
+.history-s {
+  background-color: #000;
+  text-align: justify;
+}
 .bg-image {
   background-image: url(../image/background.avif);
   height: 80vh;
@@ -209,13 +226,14 @@
   position: relative;
   background-position: center;
   top: 25px;
-  margin-bottom: 50px;
 }
 .title-history {
   position: absolute;
   font-size: 50px;
   top: 160px;
   left: 50px;
+  font-family: "Poppins";
+  font-weight: bold;
 }
 .history-2 {
   width: 1440px;
@@ -223,17 +241,22 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
+  margin: 0 auto;
+  padding: 50px;
 }
 .history-h6 {
   margin: 0 auto;
   font-size: 25px;
   margin-top: 20px;
+  font-family: "Inter";
+  font-weight: normal;
 }
 .history-p {
-  font-size: 15px;
+  font-size: 25px;
   margin: 20px 0 20px 50px;
-  background-color: #f8d7a4;
-  border-radius: 90px;
+  font-family: "Inter";
+  font-weight: normal;
 }
 .bg-image-2 {
   background-image: url(../image/Bentley.jpg);
@@ -245,7 +268,7 @@
   background-position: center;
 }
 .img-history {
-  width: 111%;
+  width: 100%;
 }
 
 /*top */
@@ -255,14 +278,17 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  margin-left: 19px;
 }
 .head-top {
+  margin: 0 auto;
   width: 1440px;
   display: flex;
   justify-content: space-evenly;
   margin-top: 50px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
 }
+
 .top-10-left {
   width: 600px;
   margin-right: 15px;
@@ -278,26 +304,33 @@
   color: black;
   margin-top: 25px;
   margin-bottom: 35px;
+  font-family: "Poppins";
+  font-weight: bold;
 }
 .paragraph-top {
   font-size: 15px;
   color: #a55c30;
+  font-family: "Inter";
 }
 .h2-top {
   font-size: 100px;
   font-weight: bold;
+  font-family: "Poppins";
 }
 .brand {
   font-size: 30px;
   color: black;
   margin-top: 25px;
   margin-bottom: 35px;
+  font-family: "Poppins";
+  font-weight: bold;
 }
 .title-brand {
   font-size: 20px;
   color: #a55c30;
   text-align: left;
   margin-bottom: 15px;
+  font-family: "Inter";
 }
 .box-1-right {
   width: 100%;
@@ -310,15 +343,18 @@
 .Contact-h3 {
   width: 100%;
   font-size: 56px;
-  color: #A55C30;
-  margin: 50px 650px;
+  text-align: center;
+  color: #a55c30;
+  /* margin: 50px 650px; */
+  font-family: "Inter";
 }
 .black-back {
-  width:100%;
+  width: 100%;
   height: 100vh;
   background-color: black;
+  border-color: #a55c30;
 }
-.action-N{
+.action-N {
   display: flex;
   flex-direction: column;
   margin-bottom: 22px;
@@ -327,21 +363,29 @@
   width: 100%;
   height: 54px;
 }
-.form{
+.form {
   max-width: 440px;
   width: 100%;
-  margin:  0 auto;
+  margin: 0 auto;
 }
-.label{
+.label-class {
   margin-bottom: 20px;
+  font-family: "Poppins";
+}
+.cars {
+  font-family: "Inter";
 }
 .textarea {
   width: 100%;
   height: 20vh;
 }
 .send {
-  background-color: #A55C30;
+  background-color: #f8d7a4;
+  color: #a55c30;
   margin-left: 200px;
   margin-top: 22px;
   margin-bottom: 79px;
+  padding: 20px 30px;
+  border-color: #a55c30;
+  font-family: "Poppins";
 }
