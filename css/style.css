@@ -1,0 +1,347 @@
+/* home page */
+.header-wrapper {
+  max-width: 1194px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 23.5px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  max-width: 186px;
+  width: 100%;
+}
+.navigation {
+  width: 464px;
+}
+.ul-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.li-items {
+  color: black;
+  font-size: 16px;
+}
+.top-section {
+  width: 1194px;
+  height: 80vh;
+  display: flex;
+  margin: 0 auto;
+}
+.left {
+  width: 580px;
+  display: flex;
+  justify-content: center;
+  margin-top: 124.59px;
+}
+.line {
+  width: 9px;
+  height: 261px;
+  margin-right: 47px;
+}
+.title {
+  width: 457px;
+  font-size: 64px;
+  color: black;
+}
+.right {
+  width: 832.23px;
+  margin-top: 30px;
+}
+.car {
+  position: absolute;
+  z-index: 1;
+}
+.img-background-vector {
+  position: relative;
+}
+.img {
+  max-width: 900px;
+  width: 100%;
+}
+.Mercedes-Benz {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+}
+.right-wrapper {
+  max-width: 481px;
+  padding: 170px 50px;
+}
+.m-title {
+  font-size: 28px;
+  font-weight: bolder;
+  text-align: justify;
+  line-height: 1.5;
+  color: white;
+}
+.bently {
+  background-image: url(../image/Mulliner.jpg);
+  height: 80vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+.b-mulliner {
+  color: #fff;
+  font-size: 35px;
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  font-weight: bolder;
+}
+.paragraph {
+  position: absolute;
+  width: 350px;
+  top: 150px;
+  left: 150px;
+  color: #fff;
+  font-size: 35px;
+  text-align: left;
+}
+.bently-m {
+  display: flex;
+}
+.bently-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: first baseline;
+  background-color: #f8d7a4;
+  border-radius: 50%;
+}
+.MULLINER {
+  font-size: 35px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 50px;
+}
+.p-mulliner {
+  width: 650px;
+  top: 150px;
+  left: 150px;
+  color: black;
+  font-size: 28px;
+  text-align: center;
+  padding-top: 28px;
+  line-height: 2;
+}
+.grey {
+  width: 100%;
+  background-color: #f8d7a4;
+}
+.objects {
+  width: 951px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.grey-objects {
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  color: grey;
+}
+.numb {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+.title-3 {
+  font-size: 25px;
+  line-height: 2.5;
+}
+
+.footer-wrapper {
+  background-color: black;
+}
+.footer-titles {
+  width: 700px;
+  margin-left: 126px;
+  display: flex;
+  flex-direction: column;
+}
+.logo-f {
+  width: 186px;
+  margin-top: 50px;
+}
+.footer-h4 {
+  width: 263px;
+  height: 100px;
+  font-size: 16px;
+  color: #f8d7a4;
+  margin-top: 20px;
+}
+.social {
+  display: flex;
+  justify-content: left;
+  margin-left: 126px;
+  align-items: center;
+}
+.social-items {
+  margin-right: 45px;
+}
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+.Copyright {
+  font-size: 12px;
+  color: white;
+  margin: 0 auto;
+  margin-top: 24px;
+  margin-bottom: 33px;
+}
+
+/* about */
+
+.bg-image {
+  background-image: url(../image/background.avif);
+  height: 80vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  top: 25px;
+  margin-bottom: 50px;
+}
+.title-history {
+  position: absolute;
+  font-size: 50px;
+  top: 160px;
+  left: 50px;
+}
+.history-2 {
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.history-h6 {
+  margin: 0 auto;
+  font-size: 25px;
+  margin-top: 20px;
+}
+.history-p {
+  font-size: 15px;
+  margin: 20px 0 20px 50px;
+  background-color: #f8d7a4;
+  border-radius: 90px;
+}
+.bg-image-2 {
+  background-image: url(../image/Bentley.jpg);
+  height: 80vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+.img-history {
+  width: 111%;
+}
+
+/*top */
+
+.content-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-left: 19px;
+}
+.head-top {
+  width: 1440px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.top-10-left {
+  width: 600px;
+  margin-right: 15px;
+  margin-left: 145px;
+  padding-top: 100px;
+}
+.list {
+  font-size: 20px;
+  color: #f8d7a4;
+}
+.h1-top {
+  font-size: 30px;
+  color: black;
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+.paragraph-top {
+  font-size: 15px;
+  color: #a55c30;
+}
+.h2-top {
+  font-size: 100px;
+  font-weight: bold;
+}
+.brand {
+  font-size: 30px;
+  color: black;
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+.title-brand {
+  font-size: 20px;
+  color: #a55c30;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.box-1-right {
+  width: 100%;
+}
+.read-review {
+  font-size: 15px;
+}
+
+/* contact */
+.Contact-h3 {
+  width: 100%;
+  font-size: 56px;
+  color: #A55C30;
+  margin: 50px 650px;
+}
+.black-back {
+  width:100%;
+  height: 100vh;
+  background-color: black;
+}
+.action-N{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;
+}
+.form-element {
+  width: 100%;
+  height: 54px;
+}
+.form{
+  max-width: 440px;
+  width: 100%;
+  margin:  0 auto;
+}
+.label{
+  margin-bottom: 20px;
+}
+.textarea {
+  width: 100%;
+  height: 20vh;
+}
+.send {
+  background-color: #A55C30;
+  margin-left: 200px;
+  margin-top: 22px;
+  margin-bottom: 79px;
+}
