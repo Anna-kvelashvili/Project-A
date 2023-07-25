@@ -89,7 +89,7 @@
 .img-background-vector {
   position: relative;
   width: 100%;
-  right:5px;
+  right: 5px;
 }
 .img {
   width: 100%;
@@ -416,6 +416,8 @@
   text-align: center;
   color: #a55c30;
   font-family: "Inter";
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .black-back {
   width: 100%;
@@ -457,4 +459,47 @@
   padding: 20px 30px;
   border-color: #a55c30;
   font-family: "Poppins";
+}
+.centre {
+  display: flex;
+  max-width: 1440px;
+  width: 100%;
+}
+.centre-left {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centre-right {
+  max-width: 500px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.contact-title {
+  color: #a55c30;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35.16px;
+  font-family: "Inter";
+  margin-bottom: 50px;
+}
+.map {
+  width: 100%;
+}
+.us {
+  color: #a55c30;
+  font-size: 18px;
+  display: inline-block;
+  font-weight: 700;
+  font-family: "Inter";
+  margin-bottom: 25px;
+}
+.li {
+  color: #a55c30;
+  font-size: 18px;
+  display: inline-block;
+  font-weight: 700;
+  font-family: "Inter";
+  margin-bottom: 25px;
 }
