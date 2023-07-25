@@ -62,9 +62,9 @@
   width: 100%;
   position: absolute;
   z-index: 1;
-  -webkit-animation: move 5s alternate 1 0.2s;
-          animation: move 5s alternate 1 0.2s;
-}
+  -webkit-animation: move 5s alternate infinite 0.2s;
+          animation: move 5s alternate infinite 0.2s;
+ }
 @-webkit-keyframes move {
   from {
     right: 0px;
