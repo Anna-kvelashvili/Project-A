@@ -18,9 +18,9 @@
   .img-background-vector {
     display: none;
   }
-.head-top {
-  width: 100%;
-}
+  .head-top {
+    width: 100%;
+  }
 }
 @media (max-width: 1024px) {
   .top-section {
