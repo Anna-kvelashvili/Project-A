@@ -1,7 +1,39 @@
-/* 1024 */
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .bently-m {
+    display: flex;
+    flex-direction: column;
+  }
+  .bently-text {
+    margin: 0 auto;
+    max-width: 1024px;
+  }
+  .footer-bottom {
+    width: 100%;
+  }
+  .car {
+    max-width: 525px;
+    width: 100%;
+    margin-top: 50px;
+  }
   .img-background-vector {
-    max-width: 600px;
+    display: none;
+  }
+.head-top {
+  width: 100%;
+}
+}
+@media (max-width: 1024px) {
+  .top-section {
+    width: 100%;
+  }
+  .img-background-vector {
+    display: none;
+  }
+  .right {
+    max-width: 512px;
+    width: 100%;
+  }
+  .footer-bottom {
     width: 100%;
   }
   .car {
@@ -11,6 +43,9 @@
   }
   .left-wrapper {
     margin-top: 150px;
+  }
+  .img-history {
+    width: 100%;
   }
   .bently-m {
     display: flex;
@@ -55,6 +90,13 @@
     width: 100%;
   }
 }
+@media (max-width: 990px) {
+  .car {
+    max-width: 400px;
+    width: 100%;
+    margin-top: 150px;
+  }
+}
 
 /* 768 */
 
@@ -63,13 +105,6 @@
     display: flex;
     flex-direction: column;
   }
-  .right {
-    display: none;
-  }
-  .img-background-vector {
-    display: none;
-  }
-
   .Mercedes-Benz {
     display: flex;
     flex-direction: column;
@@ -90,11 +125,14 @@
   .box-1-right {
     margin-bottom: 5px;
   }
+  .car {
+    display: none;
+  }
 }
 
 /* 480 */
 
-@media (max-width: 480px) {
+@media (max-width: 668px) {
   .navigation {
     display: none;
   }
@@ -103,6 +141,7 @@
     justify-content: left;
     margin-top: 124.59px;
     text-align: left;
+    width: 100%;
   }
   .title {
     font-size: 50px;
@@ -117,10 +156,12 @@
   }
   .history-h6 {
     font-size: 15px;
+    width: 100%;
   }
   .history-p {
     font-size: 10px;
     margin: 0 auto;
+    width: 100%;
   }
   .send {
     margin-left: 0;
