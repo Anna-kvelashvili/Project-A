@@ -1,0 +1,201 @@
+/* 1024 */
+@media (max-width: 1024px) {
+  .img-background-vector {
+    max-width: 600px;
+    width: 100%;
+  }
+  .car {
+    max-width: 525px;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .left-wrapper {
+    margin-top: 150px;
+  }
+  .bently-m {
+    display: flex;
+    flex-direction: column;
+  }
+  .MULLINER {
+    margin: 0 auto;
+    font-size: 35px;
+  }
+  .p-mulliner {
+    font-size: 35px;
+    margin: 0 auto;
+  }
+  .grey {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .history-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .history-s {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .head-top {
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: none;
+  }
+  .top-10-left {
+    margin-top: 0;
+    margin-bottom: 150px;
+  }
+  .box-1-right {
+    max-width: 1024px;
+    width: 100%;
+  }
+}
+
+/* 768 */
+
+@media (max-width: 768px) {
+  .top-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .right {
+    display: none;
+  }
+  .img-background-vector {
+    display: none;
+  }
+
+  .Mercedes-Benz {
+    display: flex;
+    flex-direction: column;
+  }
+  .right-wrapper {
+    margin: 0 auto;
+  }
+  .b-mulliner {
+    margin: 0 auto;
+  }
+  .paragraph {
+    margin: 0 auto;
+  }
+  .top-10-left {
+    padding-top: 0px;
+    margin-left: 0;
+  }
+  .box-1-right {
+    margin-bottom: 5px;
+  }
+}
+
+/* 480 */
+
+@media (max-width: 480px) {
+  .navigation {
+    display: none;
+  }
+  .left {
+    display: flex;
+    justify-content: left;
+    margin-top: 124.59px;
+    text-align: left;
+  }
+  .title {
+    font-size: 50px;
+    width: 10px;
+  }
+  .line {
+    display: none;
+  }
+  .title-history {
+    font-size: 30px;
+    text-align: center;
+  }
+  .history-h6 {
+    font-size: 15px;
+  }
+  .history-p {
+    font-size: 10px;
+    margin: 0 auto;
+  }
+  .send {
+    margin-left: 0;
+  }
+  .footer-wrapper {
+    display: flex;
+  }
+  .footer-titles {
+    margin-left: 0;
+    justify-content: left;
+  }
+  .social {
+    margin-left: 0;
+  }
+  .b-mulliner {
+    left: 0px;
+    width: 10px;
+  }
+  .paragraph {
+    left: 0px;
+    text-align: left;
+    width: 100%;
+  }
+  .MULLINER {
+    left: 0px;
+    font-size: 30px;
+  }
+  .p-mulliner {
+    left: 0px;
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+  }
+  .img-bently {
+    display: none;
+  }
+  .objects {
+    flex-direction: column;
+  }
+  .grey-objects {
+    margin: 0 auto;
+    top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .top-10-left {
+    left: 0px;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .list {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .h1-top {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .paragraph-top {
+    margin-bottom: 5px;
+  }
+  .h2-top {
+    font-size: 25px;
+  }
+  .brand {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+  .title-brand {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .read-review {
+    font-size: 15px;
+  }
+}

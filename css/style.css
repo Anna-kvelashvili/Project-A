@@ -8,7 +8,6 @@
   justify-content: space-between;
 }
 .logo {
-  max-width: 186px;
   width: 100%;
 }
 .logo:hover {
@@ -59,6 +58,8 @@
   margin-top: 30px;
 }
 .car {
+  max-width: 832.23px;
+  width: 100%;
   position: absolute;
   z-index: 1;
   -webkit-animation: move 5s alternate 1 0.2s;
@@ -82,9 +83,9 @@
 }
 .img-background-vector {
   position: relative;
+  width: 100%;
 }
 .img {
-  max-width: 900px;
   width: 100%;
 }
 .Mercedes-Benz {
@@ -178,6 +179,7 @@
   margin-top: 150px;
   margin-bottom: 150px;
   color: grey;
+  text-align: center; 
 }
 .numb {
   font-size: 50px;
@@ -311,13 +313,7 @@
   font-weight: normal;
 }
 .bg-image-2 {
-  background-image: url(../image/Bentley.jpg);
-  height: 80vh;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  background-position: center;
+ width: 100%;
 }
 .img-history {
   width: 100%;
@@ -385,10 +381,14 @@
   font-family: "Inter";
 }
 .box-1-right {
+  max-width: 650px;
   width: 100%;
 }
 .read-review {
   font-size: 15px;
+}
+.Benz {
+  margin-bottom: 25px;
 }
 
 /* contact */
