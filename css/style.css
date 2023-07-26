@@ -263,7 +263,7 @@
 /* history */
 .history-s {
   background-color: #000;
-  text-align: justify;
+  text-align:center;
 }
 .bg-image {
   background-image: url(../image/background.avif);
@@ -310,12 +310,12 @@
   align-items: center;
   color: white;
   margin: 0 auto;
-  padding: 50px;
+  padding-top:25px;
 }
 .history-h6 {
   margin: 0 auto;
   font-size: 25px;
-  margin-top: 20px;
+  margin-top:10px;
   font-family: "Inter";
   font-weight: normal;
 }
@@ -333,8 +333,8 @@
 .img-history {
   max-width: 1024px;
   width: 100%;
-
-  padding: 50px;
+ margin: 0 auto;
+ padding-left: 50px;
 }
 
 /*top */
