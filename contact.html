@@ -40,7 +40,7 @@
         <a href="index.html"
           ><img class="logo" src="image/logo.png" alt=""
         /></a>
-        <nav class="navigation">
+        <nav id="navBar">
           <ul class="ul-items">
             <li><a class="li-items" href="index.html">Home</a></li>
             <li><a class="li-items" href="history.html">History</a></li>
@@ -48,6 +48,9 @@
             <li><a class="li-items" href="contact.html">Contact Us</a></li>
           </ul>
         </nav>
+        <div class="burger" id="burgerBar">
+          <i class="fa-solid fa-bars"></i>
+        </div>
       </div>
     </header>
 
@@ -99,7 +102,7 @@
               placeholder="Write something.."
             ></textarea>
           </div>
-          <button class="send" type="submit">SEND</button>
+          <button class="send" id="btnClickMe" type="submit">SEND</button>
         </form>
       </section>
       <section class="centre">
@@ -164,5 +167,6 @@
         </p>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
